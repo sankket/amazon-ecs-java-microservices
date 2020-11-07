@@ -5,7 +5,7 @@ Containers are a method of operating system virtualization that allow you to run
 
 Running a single container on a single server is easy. ECS is a cluster management service that helps you manage a group of clusters through a graphical user interface or by accessing a command line. With ECS you can install, operate, and scale your own cluster management infrastructure. With simple API calls, you can launch and stop Docker-enabled applications, query the complete state of your cluster, and access many familiar features like security groups, Elastic Load Balancing, EBS volumes, and IAM roles. You can use Amazon ECS to schedule the placement of containers across your cluster based on your resource needs and availability requirements. You can also integrate your own scheduler or third-party schedulers to meet business or application specific requirements.
 
-This is a reference architecture that shows the evolution of a Java application from a monolithic application that is deployed directly onto instances with no containerization or orchestration, to a containerized microservices architecture orchestrated using Amazon EC2 Container Service.
+This is a reference architecture that shows the evolution of a Java application from a monolithic application that is deployed directly onto instances with no containerization or orchestration, to a containerized microservices architecture orchestrated using Amazon EC2 Container Services.
 
 We will take the [Spring Pet Clinic](https://github.com/spring-projects/spring-petclinic) as the base to extend from.
 A high level architecture of PetClinic app is as follows,
